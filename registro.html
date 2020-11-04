@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterinaria Ago's Shop</title>
+
+    <!--Boostrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+    <!--Hoja de estilo-->
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/1a009a8fae.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+
+    <!--Menu-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <a class="navbar-brand" href="#">Ago's Pet</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="registro.html">Registro <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sucursales.html">Sucursales</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="acercade.html">Acerca de</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link"  href="clientes.html" >Nuestros clientes</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    <!--Encabezado-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 text-center text-white bg-secondary">
+              <h1>Veterinaria Ago's Pet</h1>
+              <div class="lead">___Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, iure!</div>
+            </div>
+        </div>
+    </div>
+    <!--Contenido-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-2 col-md-4 bg-secondary text-white mt-3 mb-3">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, cum reiciendis, voluptate illum aliquid quis suscipit dolor doloremque aut odio mollitia rem, quia pariatur fugiat reprehenderit accusantium atque ullam. Quam reprehenderit autem vero distinctio amet consectetur reiciendis libero est molestias, iure dolor architecto et placeat voluptatem praesentium sint provident. Quae!
+                </p>
+            </div>
+            <div class="col-lg-8 col-md-8 mt-3 mb-3">
+                    <div class="container">
+
+                        <h2>Formulario de registro</h2>
+                        <br>
+
+                        <form action="show_data.html">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label for="name">Nombre</label>
+                                        <input id="name" class="form-control" type="text" name="nombre">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label for="lastname">Apellido</label>
+                                        <input id="lastname" class="form-control" type="text" name="apellido">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-8">
+                                    <div class="form-group">
+                                        <label for="adress">Dirección</label>
+                                        <input id="adress" class="form-control" type="text" name="direccion">
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="form-group">
+                                        <label for="city">Ciudad</label>
+                                        <input id="city" class="form-control" type="text" name="ciudad">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="form-group">
+                                        <label for="cp">Código postal</label>
+                                        <input id="cp" class="form-control" type="number" name="CP">
+                                    </div>
+                                </div>
+                                <div class="col-4">
+
+                                </div>
+                                <div class="col-4">
+                                    <div class="form-group">
+                                        <label for="date">Fecha de nacimineto</label>
+                                        <input id="date" class="form-control" type="date" name="FNac">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <p>Género:</p>
+                                    <div class="form-check form-check-inline">
+                                        <input id="fem" class="form-check-input" type="radio" name="genero" value="femenino">
+                                        <label for="fem" class="form-check-label">Femenino</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input id="mas" class="form-check-input" type="radio" name="genero" value="masculino">
+                                        <label for="mas" class="form-check-label">Masculino</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input id="otro" class="form-check-input" type="radio" name="genero" value="otro">
+                                        <label for="otro" class="form-check-label">Otro</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-12">
+                                    <p>Estudios:</p>
+                                    <div class="form-check form-check-inline">
+                                        <input id="primario" class="form-check-input" type="checkbox" name="estudios" value="primario">
+                                        <label for="primario" class="form-check-label">Primarios</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input id="primario" class="form-check-input" type="checkbox" name="estudios" value="secundario">
+                                        <label for="primario" class="form-check-label">Secundario</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input id="primario" class="form-check-input" type="checkbox" name="estudios" value="terciario">
+                                        <label for="primario" class="form-check-label">Terciario</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input id="primario" class="form-check-input" type="checkbox" name="estudios" value="universitario">
+                                        <label for="primario" class="form-check-label">Universitario</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input id="primario" class="form-check-input" type="checkbox" name="estudios" value="otro">
+                                        <label for="primario" class="form-check-label">Otros</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-1">
+                                    <button type="submit" class="btn btn-secondary">Enviar</button>
+                                </div>
+                                <div class="col-11 text-center">
+                                    <p>
+                                        Si usted hace click en el botón enviar, la información será enviada a la página "show_data.html".
+                                    </p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+            </div>
+            <div class="col-lg-2 col-md-12 bg-secondary text-white mt-3 mb-3">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum accusantium maiores recusandae beatae qui cumque numquam voluptatibus. Dolore, dolorum fugit a atque optio cupiditate suscipit adipisci voluptas. Provident alias tenetur facilis quo deleniti, deserunt molestiae ipsa reprehenderit temporibus dolor amet distinctio voluptates maxime aperiam sunt non explicabo quaerat nisi qui.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!--Pie-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 text-center text-white aling-items-center bg-secondary">
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest"></i></a>
+                <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                <p>Todos los derechos reservados @2020</p>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
